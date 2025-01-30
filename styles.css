@@ -1,0 +1,58 @@
+body {
+	background: black;
+	font-family: "Montserrat";
+}
+
+.postcard {
+	background: white;
+	width: 450px;
+	height: 350px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-top: 0.5em;
+	margin-right: 1em;
+}
+.postcard-header h1 {
+	width: 10em;
+	height: x;
+	margin-left: auto;
+	color: burlywood;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: x;
+}
+.body-left p::first-letter {
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: 0.9em;
+	float: left;
+	margin: 0.1em;
+	color: blue;
+}
+.body-left,
+.body-right {
+	padding: x;
+}
+input {
+	border-bottom-color: grey;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-top: 1em;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: darkgrey;
+	padding: x;
+}
